@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir Desktop
+mkdir Documents
+mkdir Downloads
+mkdir Pictures
+mkdir Videos
+for in {1..5}
+do
+mkdir folder_$i
+done
